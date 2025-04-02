@@ -76,6 +76,7 @@ The longer you stake, the more tokens you earn but rewards grow slower over time
 ### Utility
 - Pay for AI compute time
 - Buy/sell agent templates
+- Build your own agent with some simple prompt
 - Stake to earn rewards
 - Vote in DAO proposals
 
