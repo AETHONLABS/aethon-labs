@@ -20,21 +20,49 @@ LLMs are accessed via modular nodes:
 - Embedding models for vector search (e.g., FAISS, Pinecone)
 - Summarization, sentiment analysis, and classification workflows
 
-**Formula:**
+**LLM Agent Output Formula:**
 ```
-Agent_Output = f(LLM_i, Prompt, Memory_t, Tools_k)
+Agent_Output(t) = LLM\left( P_t + \sum_{i=1}^{n} w_i M_i + \gamma \cdot F(Tools, Context_t) 
+ight)
 ```
 Where:
-- LLM_i: Selected language model instance
-- Prompt: Structured input query
-- Memory_t: Temporal memory embedding
-- Tools_k: External modules (e.g., web search, smart contract execution)
+- \( P_t \): Prompt at time t
+- \( M_i \): Memory embeddings
+- \( w_i \): Memory weight vectors
+- \( F \): Function for external tool execution
+- \( \gamma \): Scaling coefficient for external factors
+
+**Memory Embedding Update Rule:**
+```
+M_{t+1} = lpha \cdot M_t + (1 - lpha) \cdot E_t(P_t, R_t)
+```
+Where:
+- \( lpha \): Memory retention factor
+- \( E_t \): Embedding function over prompt and response
 
 ### 2.3 Agent Orchestration Engine
 - Contextual memory embedding
 - External tool calling (plugins, oracles)
 - Fine-tuned logic trees for branching workflows
 - Multi-agent delegation and coordination
+
+**Orchestration Flow Code (Example JSON):**
+```json
+{
+  "nodes": [
+    {"id": "1", "type": "PromptNode", "prompt": "What is the future of AI?"},
+    {"id": "2", "type": "LLMNode", "model": "GPT-4", "input": "1"},
+    {"id": "3", "type": "OutputNode", "input": "2"}
+  ]
+}
+```
+
+**Wireframe Logic Chain (Mathematical View):**
+```
+Workflow = Graph(N, E)
+N = {PromptNode, LLMNode, ToolNode, OutputNode}
+E = Directed edges linking inputs/outputs across nodes
+```
 
 
 ## 3. NFT Utility Collection
@@ -49,8 +77,11 @@ The Aethon Pass is a single-tier NFT collection with a total supply of 10,000. E
 ### 3.2 NFT Staking
 Pass holders can stake their NFTs to earn $AETH tokens:
 ```
-Yield = BaseRate * Time_Staked
+Yield(t) = B \cdot \log(1 + T_t) 
 ```
+Where:
+- \( B \): Base multiplier
+- \( T_t \): Time in days staked
 
 
 ## 4. Tokenomics ($AETH)
@@ -77,7 +108,13 @@ Yield = BaseRate * Time_Staked
 
 ### 5.1 Workflow Layer
 - Users build AI workflows via UI
-- Stored as JSON logic trees
+- Stored as JSON logic trees or graph-based node schemas
+
+**Graph Representation:**
+```
+W = (V, E)
+V = {AgentNode_i | i \in \mathbb{N}}, E = Directed links defining logic flow
+```
 
 ### 5.2 Execution Layer
 - Serverless backend (or user-hosted)
@@ -89,6 +126,12 @@ Yield = BaseRate * Time_Staked
 ### 5.3 Marketplace Layer
 - Users publish, buy, and fork agent templates
 - Ratings, feedback, version control
+- Embedded chat previews for agents
+
+**Agent Chat Flow Formula:**
+```
+Chat_i(t) = 	ext{LLMResponse}(Context_t, AgentProfile_i, ChatHistory_{t-1})
+```
 
 ### 5.4 Governance
 - DAO controls roadmap, treasury, and major decisions
@@ -113,4 +156,3 @@ Yield = BaseRate * Time_Staked
 
 ## Conclusion
 Aethon Labs merges AI and decentralization to build a powerful, modular system where agents become composable digital workers. With token incentives, NFT utilities, and LLM-driven architecture, the project pioneers the future of decentralized automation.
-
