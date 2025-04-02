@@ -1,14 +1,12 @@
-# Aethon Labs Whitepaper
+                                                     # Aethon Labs Whitepaper
 
 ## Abstract
 Aethon Labs is a decentralized low-code platform for building intelligent AI agents powered by Large Language Models (LLMs), with a focus on Web3 and on-chain applications. Designed for developers, creators, and businesses, Aethon Labs enables seamless visual orchestration of AI workflows and automation using blockchain infrastructure. The ecosystem includes the $AETH token, an NFT utility collection, and an AI-driven agent marketplace. This whitepaper outlines the architecture, LLM integration, tokenomics, and the role of NFTs within the Aethon Labs framework.
 
----
 
 ## 1. Vision
 To empower the next generation of AI creators and decentralized applications by bridging intelligent agents with blockchain ecosystems using low-code tools.
 
----
 
 ## 2. Components of Aethon Labs
 
@@ -40,7 +38,6 @@ Where:
 - Fine-tuned logic trees for branching workflows
 - Multi-agent delegation and coordination
 
----
 
 ## 3. NFT Utility Collection
 
@@ -57,7 +54,6 @@ Pass holders can stake their NFTs to earn $AETH tokens:
 Yield = BaseRate * Time_Staked
 ```
 
----
 
 ## 4. Tokenomics ($AETH)
 
@@ -78,7 +74,6 @@ Yield = BaseRate * Time_Staked
 - Governance via DAO
 - Staking for rewards and NFTs
 
----
 
 ## 5. Architecture Overview
 
@@ -101,7 +96,6 @@ Yield = BaseRate * Time_Staked
 - DAO controls roadmap, treasury, and major decisions
 - NFT and token-based voting power
 
----
 
 ## 6. Security & Compliance
 - API key encryption at rest
@@ -109,7 +103,6 @@ Yield = BaseRate * Time_Staked
 - Optional wallet signature for agent authorization
 - Ongoing audits for smart contracts and backend
 
----
 
 ## 7. Roadmap (2025–2026)
 | Quarter | Milestone                          |
@@ -119,12 +112,7 @@ Yield = BaseRate * Time_Staked
 | Q4 2025 | LLM Plugins, Multi-agent Collab    |
 | Q1 2026 | Mobile UI + On-chain AI Indexers   |
 
----
 
 ## Conclusion
 Aethon Labs merges AI and decentralization to build a powerful, modular system where agents become composable digital workers. With token incentives, NFT utilities, and LLM-driven architecture, the project pioneers the future of decentralized automation.
 
----
-
-## Legal Disclaimer
-This whitepaper is for informational purposes only and does not constitute investment advice, legal guidance, or a binding commitment. Participation in Aethon Labs is subject to regulatory risks and market volatility.
