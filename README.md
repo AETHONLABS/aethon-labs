@@ -5,7 +5,6 @@
 # Aethon Labs - Build LLM Apps Easily
 
 [![Release Notes](https://img.shields.io/github/release/Aethon LabsAI/Aethon Labs)](https://github.com/Aethon LabsAI/Aethon Labs/releases)
-[![Discord](https://img.shields.io/discord/1087698854775881778?label=Discord&logo=discord)](https://discord.gg/jbaHfsRVBW)
 [![Twitter Follow](https://img.shields.io/twitter/follow/Aethon LabsAI?style=social)](https://twitter.com/Aethon LabsAI)
 [![GitHub star chart](https://img.shields.io/github/stars/Aethon LabsAI/Aethon Labs?style=social)](https://star-history.com/#Aethon LabsAI/Aethon Labs)
 [![GitHub fork](https://img.shields.io/github/forks/Aethon LabsAI/Aethon Labs?style=social)](https://github.com/Aethon LabsAI/Aethon Labs/fork)
