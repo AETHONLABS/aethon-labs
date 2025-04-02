@@ -74,12 +74,10 @@ The longer you stake, the more tokens you earn but rewards grow slower over time
 | NFT Holder Incentives | 15% | Based on staking duration              |
 
 ### Utility
-- Pay for AI compute time
-- Buy/sell agent templates
 - Build your own agent with some simple prompt
+- Buy/sell agent templates and Pay for AI compute time
 - Stake to earn rewards
 - Vote in DAO proposals
-
 
 ## 5. System Architecture
 
