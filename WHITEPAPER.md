@@ -67,11 +67,11 @@ The longer you stake, the more tokens you earn but rewards grow slower over time
 
 | Allocation            | %   | Notes                                 |
 |-----------------------|-----|----------------------------------------|
-| Ecosystem/Rewards     | 40% | Community rewards + protocol usage     |
+| Ecosystem/Rewards     | 35% | Community rewards + protocol usage     |
 | Team & Advisors       | 20% | With cliff and vesting                 |
 | DAO Treasury          | 20% | Managed by Aethon DAO                  |
 | Liquidity & Exchanges | 10% | CEX + DEX listings                     |
-| NFT Holder Incentives | 10% | Based on staking duration              |
+| NFT Holder Incentives | 15% | Based on staking duration              |
 
 ### Utility
 - Pay for AI compute time
