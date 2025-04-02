@@ -3,7 +3,7 @@ Aethon Labs is a decentralized low-code platform designed for building intellige
 
 
 ## 1. Vision
-Enable anyone—from developers to creators—to build decentralized AI agents that can operate, learn, and interact across the blockchain using drag-and-drop tools and secure integrations.
+Enable anyone from developers to creators to build decentralized AI agents that can operate, learn, and interact across the blockchain using drag-and-drop tools and secure integrations.
 
 
 ## 2. Platform Overview
@@ -58,7 +58,7 @@ Supports multi-step logic trees, external API execution, and multi-agent delegat
 Yield(t) = BaseRate * log(1 + Days_Staked)
 ```
 **Plain Explanation:**
-The longer you stake, the more tokens you earn—but rewards grow slower over time to keep things fair.
+The longer you stake, the more tokens you earn but rewards grow slower over time to keep things fair.
 
 
 ## 4. Tokenomics ($AETH)
