@@ -83,8 +83,8 @@ These controls ensure that staking remains beneficial for committed participants
 | NFT Holder Incentives | 15% | Based on staking duration              |
 
 ### Utility
-- Pay for AI compute time
-- Buy/sell agent templates
+- Build your own custom agent with simple prompts
+- Buy/sell agent templates and pay for AI compute time
 - Stake to earn rewards
 - Vote in DAO proposals
 
