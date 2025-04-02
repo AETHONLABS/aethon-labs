@@ -194,7 +194,7 @@ Deploy Aethon Labs self-hosted in your existing infrastructure, we support vario
 
 ## ☁️ Aethon Labs Cloud
 
-[Get Started with Aethon Labs Cloud](https://Aethon Labsai.com/)
+[Get Started with Aethon Labs Cloud](https://AethonLabsai.com/)
 
 ## 🙋 Support
 
@@ -208,8 +208,6 @@ Thanks go to these awesome contributors
 <img src="https://contrib.rocks/image?repo=Aethon LabsAI/Aethon Labs" />
 </a>
 
-See [contributing guide](CONTRIBUTING.md). Reach out to us at [Discord](https://discord.gg/jbaHfsRVBW) if you have any questions or issues.
-[![Star History Chart](https://api.star-history.com/svg?repos=Aethon LabsAI/Aethon Labs&type=Timeline)](https://star-history.com/#Aethon LabsAI/Aethon Labs&Date)
 
 ## 📄 License
 
