@@ -1,6 +1,6 @@
 
 ## Abstract
-Aethon Labs is a decentralized low-code platform designed for building intelligent AI agents using large language models (LLMs), tailored for Web3 and on-chain ecosystems. This whitepaper explores the system architecture, real-world use cases, tokenomics, and the unique NFT-based access mechanism behind Aethon Labs. We provide technical depth where necessary while offering plain-language explanations for accessibility.
+Aethon Labs is a globally accessible, decentralized low-code platform for building intelligent AI agents powered by large language models (LLMs). Designed to bridge AI and Web3, Aethon empowers developers, creators, and businesses around the world to design, deploy, and monetize on-chain agents and workflows using an intuitive visual interface. Whether you're building for DeFi, DAOs, NFTs, or real-world automation, Aethon provides the infrastructure to create scalable, permissionless, and intelligent agents with native blockchain integration.
 
 ## 1. Vision
 Enable anyone from developers to creators to build decentralized AI agents that can operate, learn, and interact across the blockchain using drag-and-drop tools and secure integrations.
